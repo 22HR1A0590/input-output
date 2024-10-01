@@ -20,7 +20,59 @@ Will you be a wicketkeeper?
 Dhoni's Reply:
 I will if i get a chance.
 For Banerjee's question "Will you be a wicketkeeper?" Dhoni's confident reply was "I will if I get a chance." '''
+
 p=input("Banerjee's Question:\n")
 r=input("Dhoni's Reply:\n")
 print("For Banerjee's Question \"{}\" Dhoni's Confident reply was \"{}\"".format(p,r))
 
+'''3)It was in the 1997-98 season that Ranchi saw the rise of the Captain Cool in the interschool trophy between DAV Jawahar Vidhya Mandir and Kendriya School. It was in that match Dhoni convinced Banerjee to be the opener and justified it with a double century.
+Write a program to display the details of the match with Team name, Scores of the team and Overs played.
+Input and Output Format:  
+Sample Input and Output:
+Team 1:
+Team Name:
+DAV Jawahar Vidhya Mandir
+Score:
+150
+Overs played:
+20
+Team 2:
+Team name:
+Kendriya School
+Score:
+110
+Overs played:
+18
+Match Details:
+Team 1:
+Name: DAV Jawahar Vidhya Mandir
+Score: 150
+Overs played: 20
+Team 2:
+Name:  Kendriya School
+Score: 110
+Overs played: 18'''
+
+
+def main():
+    print("Team 1:")
+    team1_name = input("Team Name:\n")
+    team1_score = int(input("Score:\n"))
+    team1_overs = int(input("Overs played:\n"))
+    print("Team 2:")
+    team2_name = input("Team name:\n")
+    team2_score = int(input("Score:\n"))
+    team2_overs = int(input("Overs played:\n"))
+    print("\nMatch Details:")
+    print("Team 1:")
+    print(f"Name: {team1_name}")
+    print(f"Score: {team1_score}")
+    print(f"Overs played: {team1_overs}")
+    
+    print("Team 2:")
+    print(f"Name: {team2_name}")
+    print(f"Score: {team2_score}")
+    print(f"Overs played: {team2_overs}")
+
+if __name__ == "__main__":
+    main()
